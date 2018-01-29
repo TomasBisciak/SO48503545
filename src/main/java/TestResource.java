@@ -15,7 +15,7 @@ import javax.ws.rs.core.Response;
  * Created by Tomas Bisciak on 24/1/2018.
  */
 @Path("/test")
-@Stateless
+//@Stateless
 public class TestResource {
 
     @PersistenceContext(unitName = "pu")
